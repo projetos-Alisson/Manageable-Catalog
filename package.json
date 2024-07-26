@@ -1,0 +1,26 @@
+{
+  "name": "projeto-node-js-e-mysql",
+  "version": "1.0.0",
+  "description": "Projeto NodeJS e MySQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
+  },
+  "keywords": [
+    "express",
+    "express-handlebars",
+    "bootstrap",
+    "mysql"
+  ],
+  "author": "Alisson Soares",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.1",
+    "express-handlebars": "^7.1.3",
+    "mysql2": "^3.10.3",
+    "nodemon": "^3.1.4"
+  }
+}
