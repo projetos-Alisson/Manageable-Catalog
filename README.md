@@ -1,7 +1,10 @@
 # Manageable-Catalog
 
+Project in development of a product catalog
 
-Project in development of a product catalog that you can execute, opening a terminal in the code interpreter of your choice writing the following command:
+<img src="imagens/imagem catalogo.png">
+
+You can execute, opening a terminal in the code interpreter of your choice writing the following command:
 
 ```
 npm install
@@ -20,3 +23,5 @@ or
 node app.js
 
 ```
+
+In of the browser, writing in search bar: **http://localhost:8080/**
