@@ -7,3 +7,42 @@ form{
 form input{
     margin-bottom: 10px;
 }
+
+form input[type="submit"]{
+    margin-top: 10px;
+}
+
+form img{
+    width: 200px;
+    margin: 40px 0 40px 0;
+}
+
+.card{
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.textos #product-name{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px ;
+    justify-content: center;
+   
+}
+
+.textos #value{
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 12px;
+}
+
+.card a {
+    margin-top: 5px;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    
+}

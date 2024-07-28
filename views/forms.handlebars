@@ -26,11 +26,13 @@
           <div class="card">
             <img src="../imagens/{{imagem}}" alt="">
             <div class="textos">
-              <p>{{nome}}</p>
-              <p>{{valor}}</p>
+              <p id="product-name">{{nome}}</p>
+              <p id="value">R${{valor}}</p>
             </div>
-            <a href="#" class="btn btn-warning">Alterar</a>
-            <a href="#" class="btn btn-danger">Remover</a>
+            <div class="buttons"> 
+            <a href="/formularioEditar/{{codigo}}" class="btn btn-warning">Alterar</a>
+            <a href="/remover/{{codigo}}&{{imagem}}" class="btn btn-danger">Remover</a>
+            </div>
           </div>
         </div>
 
