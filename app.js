@@ -28,7 +28,14 @@ app.use("/css", express.static("./css"));
 app.use("/imagens", express.static("./imagens"));
 
 //Configuration of the express-handlebars
-app.engine("handlebars", engine());
+app.engine("handlebars", engine( {
+   helpers: {
+  // Função auxiliar para verificar igualdade
+      condicionalIgualdade: function (parametro1, parametro2, options) {
+        return parametro1 === parametro2 ? options.fn(this) : options.inverse(this);
+    }
+  }
+}));
 app.set("view engine", "handlebars"); //All files belong the handlebars extension
 app.set("views", "./views");
 
@@ -210,7 +217,7 @@ app.post('/editar', function(req, res){
   }
 
     //Redirect for main route
-    res.redirect('/sucessoCadastro')
+    res.redirect('/sucessoEdicao')
   }
 })
 //Server
