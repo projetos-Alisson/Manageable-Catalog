@@ -1,6 +1,6 @@
 # Manageable-Catalog
 
-Project in development of a product catalog
+Project of a product catalog using Node.js, MySQL, Handlebars and CSS.
 
 <img src="imagens/imagem catalogo.png">
 
