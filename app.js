@@ -15,6 +15,12 @@ const fs = require("fs");
 //App
 const app = express();
 
+
+//Port
+
+const port = process.env.PORT || 8080;
+
+
 //Enabling the upload of files
 app.use(fileupload());
 
@@ -221,4 +227,4 @@ app.post('/editar', function(req, res){
   }
 })
 //Server
-app.listen(8080);
+app.listen(port);
